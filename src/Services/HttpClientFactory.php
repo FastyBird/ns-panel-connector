@@ -7,13 +7,13 @@
  * @copyright      https://www.fastybird.com
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>
  * @package        FastyBird:NsPanelConnector!
- * @subpackage     API
+ * @subpackage     Services
  * @since          1.0.0
  *
  * @date           01.07.23
  */
 
-namespace FastyBird\Connector\NsPanel\API;
+namespace FastyBird\Connector\NsPanel\Services;
 
 use GuzzleHttp;
 use InvalidArgumentException;
@@ -26,7 +26,7 @@ use React\Socket\Connector;
  * API HTTP client factory
  *
  * @package        FastyBird:NsPanelConnector!
- * @subpackage     API
+ * @subpackage     Services
  *
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>
  */
