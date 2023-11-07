@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 /**
- * FindConnectors.php
+ * FindDevices.php
  *
  * @license        More in LICENSE.md
  * @copyright      https://www.fastybird.com
@@ -13,23 +13,23 @@
  * @date           29.07.23
  */
 
-namespace FastyBird\Connector\NsPanel\Queries;
+namespace FastyBird\Connector\NsPanel\Queries\Entities;
 
 use FastyBird\Connector\NsPanel\Entities;
 use FastyBird\Module\Devices\Queries as DevicesQueries;
 
 /**
- * Find connectors entities query
+ * Find devices entities query
  *
- * @template T of Entities\NsPanelConnector
- * @extends  DevicesQueries\FindConnectors<T>
+ * @template T of Entities\NsPanelDevice
+ * @extends  DevicesQueries\Entities\FindDevices<T>
  *
  * @package        FastyBird:NsPanelConnector!
  * @subpackage     Queries
  *
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>
  */
-class FindConnectors extends DevicesQueries\FindConnectors
+class FindDevices extends DevicesQueries\Entities\FindDevices
 {
 
 }

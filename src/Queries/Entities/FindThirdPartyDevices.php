@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 /**
- * FindSubDevices.php
+ * FindThirdPartyDevices.php
  *
  * @license        More in LICENSE.md
  * @copyright      https://www.fastybird.com
@@ -13,14 +13,14 @@
  * @date           29.07.23
  */
 
-namespace FastyBird\Connector\NsPanel\Queries;
+namespace FastyBird\Connector\NsPanel\Queries\Entities;
 
 use FastyBird\Connector\NsPanel\Entities;
 
 /**
- * Find sub-devices entities query
+ * Find third-party devices entities query
  *
- * @template T of Entities\Devices\SubDevice
+ * @template T of Entities\Devices\ThirdPartyDevice
  * @extends  FindDevices<T>
  *
  * @package        FastyBird:NsPanelConnector!
@@ -28,7 +28,7 @@ use FastyBird\Connector\NsPanel\Entities;
  *
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>
  */
-class FindSubDevices extends FindDevices
+class FindThirdPartyDevices extends FindDevices
 {
 
 }

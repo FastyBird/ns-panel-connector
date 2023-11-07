@@ -13,7 +13,7 @@
  * @date           29.07.23
  */
 
-namespace FastyBird\Connector\NsPanel\Queries;
+namespace FastyBird\Connector\NsPanel\Queries\Entities;
 
 use FastyBird\Connector\NsPanel\Entities;
 use FastyBird\Module\Devices\Queries as DevicesQueries;
@@ -22,14 +22,14 @@ use FastyBird\Module\Devices\Queries as DevicesQueries;
  * Find device channels entities query
  *
  * @template T of Entities\NsPanelChannel
- * @extends  DevicesQueries\FindChannels<T>
+ * @extends  DevicesQueries\Entities\FindChannels<T>
  *
  * @package        FastyBird:NsPanelConnector!
  * @subpackage     Queries
  *
  * @author         Adam Kadlec <adam.kadlec@fastybird.com>
  */
-class FindChannels extends DevicesQueries\FindChannels
+class FindChannels extends DevicesQueries\Entities\FindChannels
 {
 
 }
